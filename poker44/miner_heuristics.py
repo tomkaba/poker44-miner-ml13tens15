@@ -10,7 +10,7 @@ import numpy as np
 import torch
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-RUNTIME_MODEL_PATH = REPO_ROOT / "weights" / "gen13_tens7_170_hardened.ts"
+RUNTIME_MODEL_PATH = REPO_ROOT / "weights" / "gen13_tens15_170_10_ft7_hardened.ts"
 
 ACTION_MAP = {
     "fold": 1,
